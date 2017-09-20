@@ -152,11 +152,11 @@
 					<!-- Time for which CQE is not reevaluted after it was declared bad due to MAC stats -->
 					<MACHysteresisTimer units="secs">120</MACHysteresisTimer>
 					<!-- Alpha to compute RSSI averaging based on IIR filtering mechanism -->
-					<MACStatsAveragingAlpha>0.64</MACStatsAveragingAlpha>
+					<MACStatsAveragingAlpha>0.51</MACStatsAveragingAlpha>
 					<!-- Threshold for RX MPDU PER -->
-					<RMP_THR>0.02</RMP_THR>
+					<RMP_THR>0.18</RMP_THR>
 					<!-- Minimum MPDU count to activate RX MPDU PER -->
-					<RMP_CNT_THR>12</RMP_CNT_THR>
+					<RMP_CNT_THR>19</RMP_CNT_THR>
 					<!-- Cutoff RX MCS index -->
 					<RX_MCS_THR>3</RX_MCS_THR>
 					<!-- Cutoff RX BW index -->
@@ -170,7 +170,7 @@
 					<!-- Minimum MPDU count to activate MPDU retry rate -->
 					<TMR_CNT_THR>60</TMR_CNT_THR>
 					<!-- Cutoff TX MCS index -->
-					<TX_MCS_THR>8</TX_MCS_THR>
+					<TX_MCS_THR>4</TX_MCS_THR>
 					<!-- Cutoff TX BW index -->
 					<TX_BW_THR>2</TX_BW_THR>
 					<!-- Maximum MPDU count to activate RX MPDU PER -->
@@ -178,9 +178,9 @@
 					<!-- Maximum MPDU count to activate MPDU retry rate -->
 					<TMR_UBCNT_THR>1000</TMR_UBCNT_THR>
 					<!-- Threshold for PERAM -->
-					<PERAM_THR>0.06</PERAM_THR>
+					<PERAM_THR>0.05</PERAM_THR>
 					<!-- Minimum MPDU count to activate PERAM -->
-					<PERAM_CNT_THR>20</PERAM_CNT_THR>
+					<PERAM_CNT_THR>10</PERAM_CNT_THR>
 					<!-- Maximum MPDU count to activate PERAM -->
 					<PERAM_UBCNT_THR>1000</PERAM_UBCNT_THR>
 					<!-- CQE throughput Threshold-->
