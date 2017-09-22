@@ -29,8 +29,6 @@ PRODUCT_COPY_FILES += \
     vendor/zuk/msm8996-common/proprietary/bin/mm-qcamera-daemon:system/bin/mm-qcamera-daemon \
     vendor/zuk/msm8996-common/proprietary/bin/msm_irqbalance:system/bin/msm_irqbalance \
     vendor/zuk/msm8996-common/proprietary/bin/netmgrd:system/bin/netmgrd \
-    vendor/zuk/msm8996-common/proprietary/bin/pm-proxy:system/bin/pm-proxy \
-    vendor/zuk/msm8996-common/proprietary/bin/pm-service:system/bin/pm-service \
     vendor/zuk/msm8996-common/proprietary/bin/port-bridge:system/bin/port-bridge \
     vendor/zuk/msm8996-common/proprietary/bin/qmuxd:system/bin/qmuxd \
     vendor/zuk/msm8996-common/proprietary/bin/qseecomd:system/bin/qseecomd \
@@ -139,6 +137,8 @@ PRODUCT_COPY_FILES += \
     vendor/zuk/msm8996-common/proprietary/vendor/bin/hw/vendor.qti.hardware.perf@1.0-service:system/vendor/bin/hw/vendor.qti.hardware.perf@1.0-service \
     vendor/zuk/msm8996-common/proprietary/vendor/bin/loc_launcher:system/vendor/bin/loc_launcher \
     vendor/zuk/msm8996-common/proprietary/vendor/bin/pd-mapper:system/vendor/bin/pd-mapper \
+    vendor/zuk/msm8996-common/proprietary/vendor/bin/pm-proxy:system/vendor/bin/pm-proxy \
+    vendor/zuk/msm8996-common/proprietary/vendor/bin/pm-service:system/vendor/bin/pm-service \
     vendor/zuk/msm8996-common/proprietary/vendor/bin/qseeproxydaemon:system/vendor/bin/qseeproxydaemon \
     vendor/zuk/msm8996-common/proprietary/vendor/bin/qti:system/vendor/bin/qti \
     vendor/zuk/msm8996-common/proprietary/vendor/bin/slim_daemon:system/vendor/bin/slim_daemon \
