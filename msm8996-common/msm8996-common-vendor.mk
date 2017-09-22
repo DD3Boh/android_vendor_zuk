@@ -249,7 +249,6 @@ PRODUCT_COPY_FILES += \
     vendor/zuk/msm8996-common/proprietary/vendor/lib/libOmxWmaDec.so:system/vendor/lib/libOmxWmaDec.so \
     vendor/zuk/msm8996-common/proprietary/vendor/lib/libOpenCL.so:system/vendor/lib/libOpenCL.so \
     vendor/zuk/msm8996-common/proprietary/vendor/lib/libQSEEComAPI.so:system/vendor/lib/libQSEEComAPI.so \
-    vendor/zuk/msm8996-common/proprietary/vendor/lib/libQtiTether.so:system/vendor/lib/libQtiTether.so \
     vendor/zuk/msm8996-common/proprietary/vendor/lib/libRSDriver_adreno.so:system/vendor/lib/libRSDriver_adreno.so \
     vendor/zuk/msm8996-common/proprietary/vendor/lib/libTimeService.so:system/vendor/lib/libTimeService.so \
     vendor/zuk/msm8996-common/proprietary/vendor/lib/libWVStreamControlAPI_L3.so:system/vendor/lib/libWVStreamControlAPI_L3.so \
@@ -280,7 +279,6 @@ PRODUCT_COPY_FILES += \
     vendor/zuk/msm8996-common/proprietary/vendor/lib/libcneapiclient.so:system/vendor/lib/libcneapiclient.so \
     vendor/zuk/msm8996-common/proprietary/vendor/lib/libcneconn.so:system/vendor/lib/libcneconn.so \
     vendor/zuk/msm8996-common/proprietary/vendor/lib/libcneqmiutils.so:system/vendor/lib/libcneqmiutils.so \
-    vendor/zuk/msm8996-common/proprietary/vendor/lib/libconnctrl.so:system/vendor/lib/libconnctrl.so \
     vendor/zuk/msm8996-common/proprietary/vendor/lib/libdiag.so:system/vendor/lib/libdiag.so \
     vendor/zuk/msm8996-common/proprietary/vendor/lib/libdisp-aba.so:system/vendor/lib/libdisp-aba.so \
     vendor/zuk/msm8996-common/proprietary/vendor/lib/libdsi_netctrl.so:system/vendor/lib/libdsi_netctrl.so \
@@ -524,7 +522,6 @@ PRODUCT_COPY_FILES += \
     vendor/zuk/msm8996-common/proprietary/vendor/lib64/libOmxWmaDec.so:system/vendor/lib64/libOmxWmaDec.so \
     vendor/zuk/msm8996-common/proprietary/vendor/lib64/libOpenCL.so:system/vendor/lib64/libOpenCL.so \
     vendor/zuk/msm8996-common/proprietary/vendor/lib64/libQSEEComAPI.so:system/vendor/lib64/libQSEEComAPI.so \
-    vendor/zuk/msm8996-common/proprietary/vendor/lib64/libQtiTether.so:system/vendor/lib64/libQtiTether.so \
     vendor/zuk/msm8996-common/proprietary/vendor/lib64/libRSDriver_adreno.so:system/vendor/lib64/libRSDriver_adreno.so \
     vendor/zuk/msm8996-common/proprietary/vendor/lib64/libSecureUILib.so:system/vendor/lib64/libSecureUILib.so \
     vendor/zuk/msm8996-common/proprietary/vendor/lib64/libStDrvInt.so:system/vendor/lib64/libStDrvInt.so \
@@ -552,7 +549,6 @@ PRODUCT_COPY_FILES += \
     vendor/zuk/msm8996-common/proprietary/vendor/lib64/libcneconn.so:system/vendor/lib64/libcneconn.so \
     vendor/zuk/msm8996-common/proprietary/vendor/lib64/libcneqmiutils.so:system/vendor/lib64/libcneqmiutils.so \
     vendor/zuk/msm8996-common/proprietary/vendor/lib64/libconfigdb.so:system/vendor/lib64/libconfigdb.so \
-    vendor/zuk/msm8996-common/proprietary/vendor/lib64/libconnctrl.so:system/vendor/lib64/libconnctrl.so \
     vendor/zuk/msm8996-common/proprietary/vendor/lib64/libdataitems.so:system/vendor/lib64/libdataitems.so \
     vendor/zuk/msm8996-common/proprietary/vendor/lib64/libdiag.so:system/vendor/lib64/libdiag.so \
     vendor/zuk/msm8996-common/proprietary/vendor/lib64/libdisp-aba.so:system/vendor/lib64/libdisp-aba.so \
@@ -684,7 +680,6 @@ PRODUCT_PACKAGES += \
     libsdm-disp-vndapis \
     libtime_genoff \
     libloc_api_v02 \
-    QtiTelephonyService \
     TimeService \
     datastatusnotification \
     shutdownlistener \
