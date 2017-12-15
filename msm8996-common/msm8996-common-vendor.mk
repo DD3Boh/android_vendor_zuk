@@ -695,6 +695,7 @@ PRODUCT_PACKAGES += \
     libsdm-disp-vndapis \
     libtime_genoff \
     libloc_api_v02 \
+    datastatusnotification \
     qcrilmsgtunnel \
     TimeService \
     colorservice \
